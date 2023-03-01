@@ -9,6 +9,7 @@
     "devp1": "tsc && nodemon -r dotenv/config ./src/phaseone.ts -e ts",
     "startp2": "tsc && node -r dotenv/config dist/phasetwo.js",
     "devp2": "tsc && nodemon -r dotenv/config ./src/phasetwo.ts -e ts",
+    "devclrmap": "tsc && nodemon -r dotenv/config ./src/clearmap.ts -e ts",
     "lint": "eslint . --ext .ts"
   },
   "author": "rodrigo garcia kosinski",
