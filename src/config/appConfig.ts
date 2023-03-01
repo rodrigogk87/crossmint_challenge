@@ -20,6 +20,6 @@ export const appConfig: AppConfig = {
         soloons: 'https://challenge.crossmint.io/api/soloons',
         comeths: 'https://challenge.crossmint.io/api/comeths',
     },
-    delay: 1000,
+    delay: 2000,
     candidateId: process.env.CANDIDATE_ID || ""
 };
