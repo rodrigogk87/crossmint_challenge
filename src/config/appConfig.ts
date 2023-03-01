@@ -16,7 +16,7 @@ interface AppConfig {
 export const appConfig: AppConfig = {
     endpoints: {
         goalMap: `https://challenge.crossmint.io/api/map/${process.env.CANDIDATE_ID}/goal`,
-        polyanets: 'https://challenge.crossmint.io/api/polyanetss',
+        polyanets: 'https://challenge.crossmint.io/api/polyanets',
         soloons: 'https://challenge.crossmint.io/api/soloons',
         comeths: 'https://challenge.crossmint.io/api/comeths',
     },
